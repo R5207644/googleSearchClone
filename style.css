@@ -1,0 +1,103 @@
+a:link,a:visited{
+    color: rgb(45, 44, 44);
+    text-decoration: none;
+}
+.ext-links{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    margin-right: 0px;
+    padding: 6px;
+    width: 221.58px;
+    height: 48px;
+}
+.ext-links img{
+    max-height: 27px;
+    padding-right: 5px;
+}
+.ext-links a{
+    padding-left: 15px;
+}
+.ext-links a:hover{
+    text-decoration: underline gray;
+}
+
+/* styling logo image */
+.logo-image{
+    width: 272px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+}
+.main-content{
+    display: flex;
+    height: 141px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.search-box{
+    height: 46px;
+    width: 582px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(33, 30, 30, 0.20);
+    border-radius: 25px;
+    padding: 5px 8px 0px 14px;
+}
+.search-box:hover{
+    transform: scale(1.01);
+}
+.search-box input{
+    width: 443px;
+    border: none;
+    outline: none;
+    padding-right: 15px;
+}
+.search-box img{
+    height: 24px;
+    width: 24px;
+    padding-left: 15px;
+}
+.search-icon{
+    margin-left: -15px;
+    padding-right: 15px;
+}
+.lucky-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 584px;
+    height: 58px;
+    padding-top: 18px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    width: 141px;
+    height: 36px;
+}
+.btn button{
+    width: 100%;
+    height: 100%;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    border: none;
+    border-radius: 3px;
+}
+.main-content button{
+    border: none;
+    background: none;
+    padding: 0;
+    margin-right: 10px;
+}
+.logo-image span{
+    margin-top: 70px;
+    color: rgb(20, 113, 227);
+}
